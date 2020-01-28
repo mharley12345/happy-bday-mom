@@ -1,5 +1,15 @@
+$phone: "(min-width:320px) and (max-width:700px)";
+ *{
+   @media #{$phone} {
+     width: 400 !important;
+   }
+ }
 .App {
   text-align: center;
+  background-image: linear-gradient(red,yellow,blue,purple);
+   @media #{$phone} {
+     width: auto;
+   }
 }
 
 .App-logo {
@@ -36,3 +46,17 @@
     transform: rotate(360deg);
   }
 }
+
+#root > div > footer > div > div{
+  padding-top: 20px;
+  color:white;
+  font-size: 30px;
+ 
+}
+#root > div > footer > div > div > a{
+text-decoration: none;
+}
+
+
+
+

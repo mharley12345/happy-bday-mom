@@ -1,15 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Wrapper , Card} from 'bushido-strap'
-import './App.scss';
+import { Wrapper } from 'bushido-strap'
 
+import './App.scss';
+import Video from './components/Video'
+import AnimateText from './components/AnimateText'
+import Footer from './components/Footer'
 function App() {
   return (
+   <div className ='App'>
      <Wrapper>
-       <Card>
-         <h2>Happy Birthday Mom</h2>
-       </Card>
+     <AnimateText/>
+   
+     
+       <Video/>
+     
      </Wrapper>
+     <Footer/>
+     
+  
+     
+     </div>
   );
 }
 

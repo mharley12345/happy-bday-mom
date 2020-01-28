@@ -1,0 +1,7 @@
+$phone: "(min-width:400px) and (max-width:600px)";
+
+#root > div > div > div:nth-child(2){
+    @media #{$phone}{
+        width:auto !important;
+    }
+}
