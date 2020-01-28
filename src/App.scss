@@ -1,7 +1,14 @@
-$phone: "(min-width:320px) and (max-width:700px)";
+$phone: "(min-width:300px) and (max-width:400px)";
+$phoneLg: "(min-width:401px) and (max-width:601px)";
  *{
    @media #{$phone} {
-     width: 400 !important;
+     width: 400px !important;
+     flex-direction: column;
+   }
+   @media #{$phoneLg}{
+     width: 474px !important;
+    
+     flex-direction: column;
    }
  }
 .App {
