@@ -7,7 +7,7 @@ function App() {
   return (
      <Wrapper>
        <Card>
-         <h2>Hello World!!</h2>
+         <h2>Happy Birthday Mom</h2>
        </Card>
      </Wrapper>
   );
